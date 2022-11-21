@@ -1,0 +1,56 @@
+% ===============================================
+% PSET 4
+% ===============================================
+
+\documentclass{article}
+
+\usepackage[margin=1in]{geometry} 
+\usepackage{amsmath,amsthm,amssymb,hyperref}
+ \usepackage{setspace}
+ \usepackage[utf8]{inputenc}
+ \usepackage{graphicx}
+
+\onehalfspacing
+\begin{document}
+
+
+
+\title{Free or Reduced Lunch as an Indicator of Kindergarten SAT scores} % Replace with appropriate title
+\author{Diego Scanlon} 
+\date{Nov 2022}
+\maketitle
+\section{Introduction} In Illinois, free or reduced lunch programs, created by the Illinois State Board of Education, aims to provide nutrition to a school's students, especially those who may not receive it at home. Eligibility to the program has historically been based on the income of a student's family, and is targeted towards those around poverty level. (However, more recently, policy regarding instating free or reduced lunches for all students, regardless of poverty level, and for all public school, has been gaining popularity.)
+Seeing that a student's participation in free or reduced lunch programs is a direct reflection of their family's socioeconomic status, two important questions can be raised, the latter of which will be addressed in this paper: Does providing free and reduced lunches improve test scores of students? Is there a relationship between a student's participation in free or reduced lunch program and a student's performance on Kindergarten SATs? In other words, do students who participate in the free and reduced lunch program perform worse that students who do not participate, as participating in the program is an indication of one's socioeconomic status and one's socioeconomic status has traditionally been used to predict academic performance?
+
+\par This association has been recognized in past research regarding \textit{Cognitive Ability at Kindergarten Entry and Socioeconomic Status} by Larson, 2015, due to the environment that the student's grow up in. Larson found that lower-income students may have younger mothers, less books in the home, and less restrictions such as diet and bedtime. In contrast, student's with higher socioeconomic statuses could foster an environment that was more stimulating cognitively by supplying tools of education like books and nutritious foods. Additionally, there may be differences in parental abilities, both financially and cognitively as well. Thus, addressing these differences in wealth, such as providing nutrition may lead to an increase in performance, and could also be an indicator of it, which this paper will examine. 
+
+\section{Methodology}
+The dataset \textit{star.dta} contains 5,710 observations that address a student's class size, kindergarten SAT scores (in math, listening, reading, and wordskill), a student's gender, free or reduced lunch status, and teacher traits. To understand the relationship between a student's kindergarten SAT scores and their free or reduced lunch status, we can compare the scores of the testing subjects of those participating in and not participating the free or reduced lunch program. 
+\par For a visual representation, we can plot a histogram showing the number of students with a specific score on the y axis, and on the right access, the different scores in an academic field of students participating and not participating in the program over one another. This is an effective way to visually understand when the participating group has more students in a specific results bracket and when they don't, and when they have more students in a specific testing range. 
+\section{Results}
+For the following histograms, refer to the legend for participant information.
+\begin{center}
+\includegraphics[width=12cm]{listen.png}
+
+Non participants have more students scoring higher at 532 points
+
+\includegraphics[width=12cm]{read.png}
+
+Non participants have more students scoring higher at 427 points
+
+\includegraphics[width=12cm]{wordskill.png}
+
+Non participants have more students scoring higher at 431 points
+
+\includegraphics[width=12cm]{math.png}
+
+Non participants have more students scoring higher at 473 points
+\end{center}
+It is clear through these histograms that there is a certain score where there are a greater number of non-participating students students as the scores increase than there are participating students. It may also be valuable to compare the percentage of non participating versus participating students in the scores, to see the score distribution among their own individual groups and against the entire group as a whole.
+
+\section{Conclusion}
+After conducting this research, it seems that there are still larger questions to address that would allow us to understand the impact that free and reduced lunches has on test scores. Past research suggests that having students consume meals is a means of improving academic performance and cognitive function, especially to those that are undernourished or malnourished (\textit{Nutrition and student performance at school}, Taras 2005). Therefore, analyzing the test scores of student's pre- and post- free and reduced lunch implementation could be an effective means of measuring the program's impact on improving a student's test score. The results one could get from that experiment could indicate the effectiveness of the program and not just compare the test scores of two socioeconomic groups, classified by one more indicator of wealth.
+
+\par Additionally, it is worth noting that even though students who don't qualify for the free and reduced lunch program have a higher socioeconomic status that those who do, not participating doesn't mean that these students are being adequately nourished at home. This fact reinforces the notion that the comparison of test scores between those who do and don't participate in the program is more so and indication of socioeconomic status and less so of nutrition. Additionally, it is also assumes the notion that all socioeconomically well off students have access to a cognitively stimulating environment, which may not be the case. While nutrition is not the primary question this paper intended to address, more research could be done regarding the effects of malnutrition or under-nutrition on academic performance.
+
+\end{document}
